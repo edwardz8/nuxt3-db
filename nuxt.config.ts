@@ -14,11 +14,7 @@ export default defineNuxtConfig({
       fantasyDB: {
         connector: 'sqlite',
         options: { name: 'flexdbfile' }
-      },
-      /* flex: {
-        connector: 'postgresql',
-        url: 'postgresql://doadmin:AVNS_gGspBsPeQI1gAa0yxHf@db-postgresql-nyc1-38734-do-user-8895326-0.d.db.ondigitalocean.com:25060/defaultdb?sslmode=require'
-      } */
+      }
     }
   },
   modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt'],
